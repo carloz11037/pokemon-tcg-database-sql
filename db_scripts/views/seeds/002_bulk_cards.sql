@@ -1,0 +1,22 @@
+INSERT INTO tbl_cards (hp, name, info, attack, dammage, weak, resis, retreat, CardsInCollection, fk_collection_id, fk_type_id, fk_stage_id)
+VALUES
+(60, 'Bulbasaur', 'Seed Pokémon', 'Vine Whip', '20', 'Fire', 'Water', '1', 1, 1, 1, 1),
+(50, 'Charmander', 'Lizard Pokémon', 'Ember', '30', 'Water', NULL, '1', 1, 1, 2, 1),
+(50, 'Squirtle', 'Tiny Turtle Pokémon', 'Bubble', '20', 'Electric', NULL, '1', 1, 1, 3, 1),
+(40, 'Pikachu', 'Mouse Pokémon', 'Thunder Shock', '20', 'Fighting', 'Steel', '1', 1, 1, 4, 1),
+(60, 'Jigglypuff', 'Balloon Pokémon', 'Pound', '20', 'Fighting', 'Psychic', '1', 1, 1, 7, 1),
+(100, 'Snorlax', 'Sleeping Pokémon', 'Body Slam', '30', 'Fighting', NULL, '4', 1, 2, 7, 1),
+(70, 'Eevee', 'Evolution Pokémon', 'Quick Attack', '20', 'Fighting', NULL, '1', 1, 2, 7, 1),
+(80, 'Vaporeon', 'Bubble Jet Pokémon', 'Water Gun', '30', 'Electric', NULL, '2', 1, 2, 3, 2),
+(80, 'Jolteon', 'Lightning Pokémon', 'Pin Missile', '20x', 'Fighting', 'Steel', '1', 1, 2, 4, 2),
+(80, 'Flareon', 'Flame Pokémon', 'Flamethrower', '60', 'Water', NULL, '2', 1, 2, 2, 2),
+(90, 'Machop', 'Superpower Pokémon', 'Low Kick', '20', 'Psychic', NULL, '1', 1, 1, 6, 1),
+(100, 'Machoke', 'Superpower Pokémon', 'Karate Chop', '50', 'Psychic', NULL, '3', 1, 1, 6, 2),
+(120, 'Machamp', 'Superpower Pokémon', 'Seismic Toss', '60', 'Psychic', NULL, '3', 1, 1, 6, 3),
+(70, 'Gastly', 'Gas Pokémon', 'Lick', '10', 'Psychic', NULL, '1', 1, 1, 5, 1),
+(80, 'Haunter', 'Gas Pokémon', 'Nightmare', '20', 'Psychic', NULL, '1', 1, 1, 5, 2),
+(100, 'Gengar', 'Shadow Pokémon', 'Dark Mind', '30', 'Psychic', NULL, '2', 1, 1, 5, 3),
+(90, 'Onix', 'Rock Snake Pokémon', 'Rock Throw', '10', 'Grass', NULL, '3', 1, 1, 6, 1),
+(120, 'Hitmonchan', 'Punching Pokémon', 'Special Punch', '40', 'Psychic', NULL, '2', 1, 1, 6, 1),
+(70, 'Meowth', 'Scratch Cat Pokémon', 'Pay Day', '10', 'Fighting', NULL, '1', 1, 1, 7, 1),
+(120, 'Mewtwo', 'Genetic Pokémon', 'Psychic', '40', 'Psychic', NULL, '3', 1, 1, 5, 1);

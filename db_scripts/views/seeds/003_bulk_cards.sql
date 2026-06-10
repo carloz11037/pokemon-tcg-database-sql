@@ -1,0 +1,22 @@
+INSERT INTO tbl_cards (hp, name, info, attack, dammage, weak, resis, retreat, CardsInCollection, fk_collection_id, fk_type_id, fk_stage_id)
+VALUES
+(70, 'Pidgey', 'Tiny Bird Pokémon', 'Gust', '20', 'Electric', 'Fighting', '1', 1, 1, 7, 1),
+(80, 'Pidgeotto', 'Bird Pokémon', 'Whirlwind', '20', 'Electric', 'Fighting', '1', 1, 1, 7, 2),
+(120, 'Pidgeot', 'Bird Pokémon', 'Hurricane', '80', 'Electric', 'Fighting', '2', 1, 1, 7, 3),
+(90, 'Rattata', 'Mouse Pokémon', 'Bite', '20', 'Fighting', NULL, '1', 1, 1, 7, 1),
+(110, 'Raticate', 'Mouse Pokémon', 'Super Fang', '40', 'Fighting', NULL, '2', 1, 1, 7, 2),
+(60, 'Oddish', 'Weed Pokémon', 'Absorb', '10', 'Fire', 'Water', '1', 1, 1, 1, 1),
+(70, 'Gloom', 'Weed Pokémon', 'Poisonpowder', '20', 'Fire', 'Water', '2', 1, 1, 1, 2),
+(90, 'Vileplume', 'Flower Pokémon', 'Petal Dance', '40x', 'Fire', 'Water', '2', 1, 1, 1, 3),
+(100, 'Poliwag', 'Tadpole Pokémon', 'Water Gun', '30', 'Electric', NULL, '1', 1, 1, 3, 1),
+(110, 'Poliwhirl', 'Tadpole Pokémon', 'Bubble', '30', 'Electric', NULL, '2', 1, 1, 3, 2),
+(130, 'Poliwrath', 'Tadpole Pokémon', 'Hydro Pump', '40+', 'Electric', NULL, '3', 1, 1, 3, 3),
+(90, 'Abra', 'Psi Pokémon', 'Psyshock', '10', 'Psychic', NULL, '1', 1, 1, 5, 1),
+(100, 'Kadabra', 'Psi Pokémon', 'Recover', '20', 'Psychic', NULL, '2', 1, 1, 5, 2),
+(120, 'Alakazam', 'Psi Pokémon', 'Confuse Ray', '30', 'Psychic', NULL, '3', 1, 1, 5, 3),
+(80, 'Geodude', 'Rock Pokémon', 'Tackle', '20', 'Grass', NULL, '1', 1, 1, 6, 1),
+(100, 'Graveler', 'Rock Pokémon', 'Rock Throw', '40', 'Grass', NULL, '2', 1, 1, 6, 2),
+(130, 'Golem', 'Megaton Pokémon', 'Explosion', '100', 'Grass', NULL, '4', 1, 1, 6, 3),
+(90, 'Magnemite', 'Magnet Pokémon', 'Thunder Wave', '20', 'Fighting', 'Steel', '1', 1, 1, 4, 1),
+(100, 'Magneton', 'Magnet Pokémon', 'Selfdestruct', '80', 'Fighting', 'Steel', '2', 1, 1, 4, 2),
+(120, 'Zapdos', 'Electric Pokémon', 'Thunder', '60', 'Rock', 'Steel', '3', 1, 1, 4, 1);
