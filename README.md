@@ -39,6 +39,11 @@ A proposta foi utilizar um tema de interesse pessoal para praticar conceitos fun
 * Views
 * Índices
 
+#EXEMPLO DE BANCO DE DADOS:
+
+![Banco de Dados](assets/banco.png)
+
+
 ## Aprendizados
 
 Durante o desenvolvimento deste projeto, aprofundei meus conhecimentos em modelagem de dados e consultas SQL, além de praticar o uso de Git e GitHub para versionamento e documentação de projetos.
